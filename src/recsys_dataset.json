@@ -1,0 +1,11 @@
+[
+    {"product_query":"1 want a 1 in pvc conduit", "recommended_product_ids":[1,4,8]},
+    {"product_query":"I want a 2 in pvc pipe","recommended_product_ids":[2,7,9]},
+    {"product_query":"I want a 400 in lead connector","recommended_product_ids":[3,1,4]},
+    {"product_query":"I want a blk 1 in pvc conduit","recommended_product_ids":[4,1,8]},
+    {"product_query":"I want a yellow 20 in pvc conduit","recommended_product_ids":[5,6,7]},
+    {"product_query":"I want a 1 in pvc pipe","recommended_product_ids":[6,7,9]},
+    {"product_query":"I want a 2 in pvc pipe","recommended_product_ids":[7,9,2]},
+    {"product_query":"I want a 1 in pvc conduit","recommended_product_ids":[8,4,1]},
+    {"product_query":"I want a blake yl 2 in pvc pipe","recommended_product_ids":[9,7,2]}
+]

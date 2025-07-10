@@ -1,0 +1,45 @@
+{
+  "recommendation_system.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "product_query": "I want a blk 1 in pvc conduit",
+        "rec_id": "[4, 1, 8]"
+      },
+      {
+        "product_query": "I want a 1 in pvc pipe",
+        "rec_id": "[6, 7, 9]"
+      }
+    ],
+    "signature": {
+      "instructions": "You are an AI Assistant that recommends products to users based on their queries.",
+      "fields": [
+        {
+          "prefix": "Product Query:",
+          "description": "${product_query}"
+        },
+        {
+          "prefix": "Retrieved Products:",
+          "description": "${retrieved_products}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Recommended Product Ids:",
+          "description": "Give me top 3 recommended product ids. You have to return 3 product ids"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "2.6.9rc1",
+      "cloudpickle": "3.1"
+    }
+  }
+}

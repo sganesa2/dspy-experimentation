@@ -1,0 +1,21 @@
+[project]
+name = "dspy-experimentation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "dspy>=2.6.27",
+    "groq>=0.29.0",
+    "ipykernel>=6.29.5",
+    "pandas>=2.3.1",
+    "pytest>=8.4.1",
+    "python-dotenv>=1.1.1",
+    "rerankers[transformers]>=0.10.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
