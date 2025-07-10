@@ -1,2 +1,8 @@
+# Environment variables
 .env
-.python-version
+.env.local
+.env.*.local
+
+# Common environment file variations
+*.env
+.env.*
